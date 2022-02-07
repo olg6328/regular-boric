@@ -1,0 +1,803 @@
+{
+  "version": "2.0.10",
+  "replacements": [
+    {
+      "repA": "/(Miguel\\s+Juan\\s+)?Sebasti.n\\s+Pi.era\\s+Echenique/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Miguel\\s+Juan\\s+)?Sebasti.n\\s+Pi.era(?!\\s+Echenique)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Miguel\\s+Juan\\s+)?Sebasti.n\\s+)Pi.era(?!\\s+Echenique)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Pi.era\\s+)Echenique/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Ver.nica\\s+)?Michelle\\s+Bachelet\\s+Jeria/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Ver.nica\\s+)?Michelle\\s+Bachelet(?!\\s+Jeria)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Ver.nica\\s+)?Michelle\\s+)Bachelet(?!\\s+Jeria)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Bachelet\\s+)Jeria/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Ricardo\\s+(Froil.n\\s+)?Lagos\\s+Escobar/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Ricardo\\s+(Froil.n\\s+)?Lagos(?!\\s+Escobar)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Ricardo\\s+(Froil.n\\s+)?)Lagos(?!\\s+Escobar)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Lagos\\s+)Escobar/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Eduardo\\s+(Nicanor\\s+)?Frei\\s+Montalva|Eduardo\\s+(Alfredo\\s+Juan\\s+Bernardo\\s+)?Frei\\s+Ruiz.Tagle/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Eduardo\\s+Frei(?!(\\s+Montalva)|(\\s+Ruiz.Tagle))/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Eduardo\\s+(Nicanor\\s+)?)Frei\\s+Montalva|(?<!Eduardo\\s+(Alfredo\\s+Juan\\s+Bernardo\\s+)?)Frei\\s+Ruiz.Tagle/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Eduardo\\s+((Nicanor\\s+)|(Alfredo\\s+Juan\\s+Bernardo\\s+))?)Frei(?!(re)|(\\s+Ruiz.Tagle)|(\\s+Montalva))/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Frei\\s+)Montalva|(?<!Frei\\s+)Ruiz.Tagle/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Miguel\\s+)?Patricio\\s+Aylwin\\s+Az.car/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Miguel\\s+)?Patricio\\s+Aylwin(?!\\s+Az.car)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Miguel\\s+)?Patricio\\s+)Aylwin(?!\\s+Az.car)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Aylwin\\s+)Az.car/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Augusto\\s+(Jos.\\s+Ram.n\\s+)?Pinochet\\s+Ugarte/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Augusto\\s+(Jos.\\s+Ram.n\\s+)?Pinochet(?!\\s+Ugarte)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Augusto\\s+(?:Jos.\\s+Ram.n )?)Pinochet(?!\\s+Ugarte)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Pinochet\\s+)Ugarte/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Salvador\\s+(Guillermo\\s+)?Allende\\s+Gossens/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Salvador\\s+(Guillermo\\s+)?Allende(?!\\s+Gossens)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Salvador\\s+(?:Guillermo\\s+)?)Allende(?!\\s+Gossens)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Allende\\s+)Gossens/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Arturo\\s+(Fortunato\\s+)?Alessandri\\s+Palma|Jorge\\s+(Eduardo\\s+)?Alessandri\\s+Rodr.guez/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/((Arturo\\s+)|(Jorge\\s+))Alessandri(?!(\\s+Palma)|(\\s+Rodr.guez))/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Arturo\\s+(Fortunato\\s+)?)Alessandri\\s+Palma|(?<!Jorge\\s+(Eduardo\\s+)?)Alessandri\\s+Rodr.guez/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Arturo\\s+)|(Jorge\\s+))Alessandri(?!(\\s+Palma)|(\\s+Rodr.guez))/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/((?<!Alessandri\\s+)|(?<!Montero\\s+))((Palma)|(Rodr.guez))/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Carlos\\s+Ib..ez\\s+[dD]el\\s+Campo/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Override",
+      "active": true
+    },
+    {
+      "repA": "/Carlos\\s+Ib..ez(?!\\s+[dD]el\\s+Campo)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Override",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Carlos)Ib..ez\\s+[dD]el\\s+Campo/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Override",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Carlos\\s+)Ib..ez(?!\\s+[dD]el\\s+Campo)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Override",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Ib..ez\\s+)[dD]el\\s+Campo/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Override",
+      "active": true
+    },
+    {
+      "repA": "/Gabriel\\s+(Enrique\\s+)?Gonz.lez\\s+Videla/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Gabriel\\s+(Enrique\\s+)?Gonz.lez(?!\\s+Videla)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Gabriel\\s+(Enrique\\s+)?)Gonz.lez\\s+Videla/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Gabriel\\s+)|(Santa\\s+Mar.a\\s+))Gonz.lez(?!\\s+Videla)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Gonz.lez\\s+)Videla/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Antonio\\s+R.os\\s+Morales/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Antonio\\s+R.os(?!\\s+Morales)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Juan\\s+Antonio )R.os(?!\\s+Morales)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!R.os\\s+)Morales/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Pedro\\s+(Abelino\\s+)?Aguirre\\s+Cerda/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Pedro\\s+(Abelino\\s+)?Aguirre(?!\\s+Cerda)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Pedro\\s+(Abelino\\s+)?)Aguirre\\s+Cerda/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Pedro\\s+(Abelino\\s+)?)Aguirre(?!\\s+Cerda)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Aguirre\\s+)Cerda/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Esteban\\s+Montero\\s+Rodr.guez/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Esteban\\s+Montero(?!\\s+Rodr.guez)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Juan\\s+Esteban\\s+)Montero(?!\\s+Rodr.guez)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(P.o\\s+)?Emiliano\\s+Figueroa\\s+Larra.n/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(P.o\\s+)?Emiliano\\s+Figueroa(?!\\s+Larra.n)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(P.o\\s+)?Emiliano\\s+)Figueroa(?!\\s+Larra.n)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Figueroa\\s+)Larra.n/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Luis\\s+Sanfuentes\\s+Andonaegui/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Juan\\s+Luis\\s+Sanfuentes(?!\\s+Andonaegui)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Juan\\s+Luis\\s+)Sanfuentes(?!\\s+Andonaegui)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Sanfuentes\\s+)Andonaegui/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Ram.n\\s+Barros\\s+Luco/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Ram.n\\s+Barros(?!\\s+Luco)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Jos.\\s+)?Ram.n\\s+)Barros\\s+Luco/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Jos.\\s+)?Ram.n\\s+)Barros(?!\\s+Luco)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Barros\\s+)Luco/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Jorge\\s+Montt\\s+.lvarez|Pedro\\s+(El.as\\s+Pablo\\s+)?Montt\\s+Montt|Manuel\\s+(Francisco\\s+Antonio\\s+Juli.n\\s+)?Montt\\s+Torres/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Jorge\\s+Montt(?!\\s+.lvarez)|Pedro\\s+(El.as\\s+Pablo\\s+)?Montt(?!\\s+Montt)|Manuel\\s+(Francisco\\s+Antonio\\s+Juli.n\\s+)?Montt(?!\\s+Torres)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "(?<!Jorge )Montt\\s+.lvarez|(?<!Pedro\\s+(El.as\\s+Pablo\\s+)?)Montt\\s+Montt|(?<!Manuel\\s+(Francisco\\s+Antonio\\s+Juli.n\\s+)?)Montt\\s+Torres/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Jorge\\s+)|(Pedro\\s+)|(?:Manuel\\s+))Montt(?!(\\s+.lvarez)|(\\s+Montt)|(\\s+Torres))/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Montt\\s+)((.lvarez)|(Torres))/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Germ.n\\s+Riesco\\s+Err.zuriz/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Germ.n\\s+Riesco(?!\\s+Err.zuriz)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Germ.n\\s+)Riesco(?!\\s+Err.zuriz)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Virginio\\s+)?Federico\\s+(Guillermo\\s+Rufino\\s+Arcadio\\s+Florentino\\s+Lamberto\\s+)?Err.zuriz\\s+Echaurren|Federico\\s+(Marcos\\s+[dD]el\\s+Rosario\\s+)?Err.zuriz\\s+Za.artu/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Virginio\\s+)?Federico\\s+(Guillermo\\s+Rufino\\s+Arcadio\\s+Florentino\\s+Lamberto\\s+)?Err.zuriz(?!\\s+Echaurren)|Federico\\s+(Marcos\\s+[dD]el\\s+Rosario\\s+)?Err.zuriz(?!\\s+Za.artu)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Virginio\\s+)?Federico\\s+(Guillermo\\s+Rufino\\s+Arcadio\\s+Florentino\\s+Lamberto\\s+)?)Err.zuriz\\s+Echaurren|(?<!Federico\\s+(Marcos\\s+[dD]el\\s+Rosario\\s+)?)Err.zuriz\\s+Za.artu/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Virginio\\s+)?Federico\\s+(Guillermo\\s+Rufino\\s+Arcadio\\s+Florentino\\s+Lamberto\\s+)?)Err.zuriz(?!\\s+Echaurren)|(?<!Federico\\s+(Marcos\\s+[dD]el\\s+Rosario\\s+)?)Err.zuriz(?!\\s+Za.artu)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Err.zuriz\\s+)Echaurren|(?<!Err.zuriz\\s+)Za.artu/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Manuel\\s+(Emiliano\\s+)?Balmaceda\\s+Fern.ndez/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Manuel\\s+(Emiliano\\s+)?Balmaceda(?!\\s+Fern.ndez)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(Jos.\\s+)?Manuel\\s+(Emiliano\\s+)?)Balmaceda(?!\\s+Fern.ndez)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Balmaceda\\s+)Fern.ndez/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Domingo\\s+Santa\\s+Mar.a\\s+Gonz.lez/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Domingo\\s+Santa\\s+Mar.a(?!\\s+Gonz.lez)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Domingo\\s+)Santa\\s+Mar.a(?!\\s+Gonz.lez)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/An.bal\\s+(Nicol.s\\s+)?Pinto\\s+Garmendia|Francisco\\s+(Antonio\\s+)?Pinto(?:\\s+y)?\\s+D.az(\\s+[dD]e\\s+[lL]a\\s+Puente)?/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/An.bal\\s+(Nicol.s\\s+)?Pinto(?!\\s+Garmendia)|Francisco\\s+(Antonio\\s+)?Pinto(?!((\\s+y)?\\s+D.az))/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!An.bal\\s+(Nicol.s\\s+)?)Pinto\\s+Garmendia|(?<!Francisco\\s+(Antonio\\s+)?)Pinto(\\s+y)?\\s+D.az(\\s+[dD]e\\s+[lL]a\\s+Puente)?/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!(An.bal\\s+(Nicol.s\\s+)?)|(Francisco\\s+(Antonio\\s+)?))Pinto(?!(\\s+Garmendia)|((\\s+y)?\\s+D.az))/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Pinto\\s+)((Garmendia)|(D.az(\\s+[dD]e\\s+[lL]a\\s+Puente)?))/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Jos.\\s+Joaqu.n\\s+P.rez\\s+Mascayano/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Jos.\\s+Joaqu.n\\s+P.rez(?!\\s+Mascayano)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Jos.\\s+Joaqu.n\\s+)P.rez(?!\\s+Mascayano)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!P.rez\\s+)Mascayano/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Manuel\\s+Bulnes\\s+Prieto/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Manuel\\s+Bulnes(?!\\s+Prieto)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Manuel\\s+)Bulnes(?!\\s+Prieto)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Joaqu.n\\s+Prieto\\s+Vial/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(Jos.\\s+)?Joaqu.n\\s+Prieto(?!\\s+Vial)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!((Jos.\\s+)?Joaqu.n\\s+))Prieto(?!\\s+Vial)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Prieto\\s+)Vial/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Ram.n\\s+(Saturnino\\s+Andr.s\\s+)?Freire\\s+(y\\s+)?Serrano/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Ram.n\\s+(Saturnino\\s+Andr.s\\s+)?Freire(?!(\\s+y)?\\s+Serrano)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Ram.n\\s+(Saturnino\\s+Andr.s\\s+)?)Freire(?!(\\s+y)?\\s+Serrano)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Freire\\s+)Serrano/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Manuel\\s+(Jos.\\s+)?Blanco(\\s+y\\s+Calvo\\s+[dD]e)?\\s+Encalada/g",
+      "repB": "Gabriel Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/Manuel\\s+(Jos.\\s+)?Blanco(?!(\\s+y\\s+Calvo\\s+[dD]e)?\\s+Encalada)/g",
+      "repB": "Gabriel Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Manuel\\s+(Jos.\\s+)?)Blanco(\\s+y\\s+Calvo\\s+[dD]e)?\\s+Encalada/g",
+      "repB": "Boric Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Manuel\\s+(Jos.\\s+)?)Blanco(?!(\\s+y\\s+Calvo\\s+[dD]e)?\\s+Encalada)/g",
+      "repB": "Boric",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    },
+    {
+      "repA": "/(?<!Blanco\\s+)((y\\s+)?Calvo\\s+[dD]e\\s+)?Encalada/g",
+      "repB": "Font",
+      "type": "RegEx",
+      "case": "Maintain",
+      "active": true
+    }
+  ]
+}
